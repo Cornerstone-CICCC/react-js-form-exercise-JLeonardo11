@@ -80,7 +80,7 @@ return (
       <div className="output">
         {showGreeting && (
           <p>
-            Hello {firstname} {lastname}, you are {age} years old. Your favorite foods are: {favoritefoods.join(", ") || "none"}.
+            Helloo {firstname} {lastname}, you are {age} years old. Your favorite foods are: {favoritefoods.join(", ") || "none"}.
           </p>
         )}
       </div>
